@@ -38,7 +38,7 @@ class QueryResponse(BaseModel):
     answer: str
     sources: list[dict]
     detected_scheme: str | None = None
-
+    confidence: float | None = None
 
 # ----------- Routes -----------
 
